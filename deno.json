@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom"
+    ],
+    "strict": true
+  },
+  "tasks": {
+    "start": " deno run --allow-env --allow-read --allow-write parse.ts",
+    "lint": "deno lint"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2
+    }
+  }
+}
